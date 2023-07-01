@@ -26,22 +26,16 @@ function creatediv(color) {
 
 document.addEventListener("keydown", function (event) {
   if (event.key === "a") {
-    azul.style.backgroundColor = "pink";
+    divkey.style.backgroundColor = "purple";
   } else if (event.key === "s") {
-    divrojo.style.backgroundColor = "orange";
+    divkey.style.backgroundColor = "grey";
   } else if (event.key === "d") {
-    divverde.style.backgroundColor = "aqua";
+    divkey.style.backgroundColor = "pink";
   } else if (event.key === "q") {
     creatediv("skyblue");
   } else if (event.key === "w") {
     creatediv("orange");
   } else if (event.key === "e") {
     creatediv("brown");
-  } else if (event.key === "A") {
-    divkey.style.backgroundColor = "purple";
-  } else if (event.key === "S") {
-    divkey.style.backgroundColor = "grey";
-  } else if (event.key === "D") {
-    divkey.style.backgroundColor = "pink";
   }
 });
