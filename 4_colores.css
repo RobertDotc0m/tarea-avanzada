@@ -23,5 +23,6 @@
 .keey {
   width: 200px;
   height: 200px;
-  background-color: aqua;
+  background-color: white;
+  border: black 2px solid;
 }
