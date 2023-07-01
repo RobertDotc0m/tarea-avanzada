@@ -37,5 +37,11 @@ document.addEventListener("keydown", function (event) {
     creatediv("orange");
   } else if (event.key === "e") {
     creatediv("brown");
+  } else if (event.key === "A") {
+    divkey.style.backgroundColor = "purple";
+  } else if (event.key === "S") {
+    divkey.style.backgroundColor = "grey";
+  } else if (event.key === "D") {
+    divkey.style.backgroundColor = "pink";
   }
 });
