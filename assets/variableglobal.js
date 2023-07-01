@@ -5,7 +5,7 @@ let divamarillo = document.querySelector("#amarillo");
 let divkey = docimen.querySelector("#key");
 
 let changecolor = (color) => {
-  color.target.style.color = "red";
+  color.target.style.color = "black";
 };
 
 divazul.addEventListener("click", changecolor);
